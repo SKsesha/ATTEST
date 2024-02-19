@@ -1,5 +1,5 @@
 Сгенерировать персональный токен (добавить его в переменные коллекции)
-СЩЗДАНИЕ Issues1 https://api.github.com/repos/SKsesha/Attest/issues ( 1. Выбрать Метод POST 2. Добавить Headers "Accept: application/vnd.github+json" \ "Authorization: Bearer <YOUR-TOKEN>" \ "X-GitHub-Api-Version: 2022-11-28" \
+СОЗДАНИЕ Issues1 https://api.github.com/repos/SKsesha/Attest/issues ( 1. Выбрать Метод POST 2. Добавить Headers "Accept: application/vnd.github+json" \ "Authorization: Bearer <YOUR-TOKEN>" \ "X-GitHub-Api-Version: 2022-11-28" \
 добавить тело запроса {"title":"Issue 1","body":"Something went wrong.","assignees":["SKsesha"],"labels":["bug"]} "confirmPassword": "Q234erdfg!"} добавить скрипты на проверку статус-кода, 
 а также временные переменные var key = "IssuesURL"
 var value = pm.response.json().url
